@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CopyPaste</title>
+    <link rel="stylesheet" href="src/assets/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CopyPaste</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Section</a>
+                        <ul class="dropdown-menu"></ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Subsection</a>
+                        <ul id="list-of-subsections" class="dropdown-menu"></ul>
+                    </li>
+                </ul>
+                <form class="d-flex w-50" role="search">
+                    <input id="iptSection" class="form-control me-2 w-25" type="search" placeholder="section" aria-label="Search" disabled>
+                    <input id="iptSubsection" class="form-control me-2" type="search" placeholder="subsection" aria-label="Search" disabled>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="main-container" class="container mt-5 pt-1"></div>
+    <script src="src/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="src/assets/js/data.js"></script>
+    <script src="src/assets/js/main.js"></script>
+</body>
+</html>
